@@ -1,2 +1,2 @@
 Tuve problemas con la vista de las paginas, al verlo en emuladores de celulares o monitores los anchos, las fotos, los colores se veían como me quería... ahora al momento de abrirlo en el explorador predeterminado que tengo (brave) no se veía a mi gusto, estaba todo mucho mas grande.
-Dejo video de como se me ven en los emuladores las paginas
+Dejo fotos de como se me ven en los emuladores las paginas
