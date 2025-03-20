@@ -1,0 +1,4 @@
+@mixin flexAvanzado($displayValor, $flexValor) {
+    display: $displayValor;
+    flex-direction: $flexValor;
+}

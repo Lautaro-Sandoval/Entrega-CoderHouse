@@ -1,0 +1,268 @@
+/* Querys Small Tablets */
+
+@media screen and (min-width: 711px) {
+
+    /* Header Styles */
+
+    .container-header {
+        img {
+            height: 14vh;
+        }
+    }
+
+    .container-header {
+        nav {
+            ul {
+                li {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+
+    .header-image {
+        height: 43vh;
+    }
+
+    /* Main Styles */
+
+    .main-image {
+        height: 43vh;
+    }
+
+    .main-description {
+        img {
+            height: 18vh;
+        }
+    }
+
+    /* Footer Styles */
+
+    .footer-social {
+        font-size: 2rem;
+    }
+}
+
+/* Querys Big Tablets */
+
+@media screen and (min-width: 820px) {
+
+    /* Header Styles */
+
+    .container-header {
+        img {
+            height: 15vh;
+        }
+    }
+
+    .container-header {
+        nav {
+            ul {
+                li {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+
+    .header-image {
+        height: 41vh;
+    }
+
+    /* Main Styles */
+
+    .main-image {
+        height: 40vh;
+    }
+
+    .main-description {
+        img {
+            height: 15vh;
+        }
+    }
+
+    /* Footer Styles */
+
+    .footer-social {
+        font-size: 2.5rem;
+    }
+}
+
+/* Querys Desktop */
+
+@media screen and (min-width: 1200px) {
+
+    /* Generals Styles */
+
+    html {
+        font-size: 1.3rem;
+    }
+
+    /* Header Styles */
+
+    .container-header {
+        flex-direction: row;
+        height: 25vh;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .container-header {
+        nav {
+            ul {
+                @include flexAvanzado(flex, row); 
+                margin-right: 2rem;
+            }
+        }
+    }
+
+    .container-header {
+        nav {
+            ul {
+                li {
+                    &:hover,
+                    a:hover {
+                        background-color: color.$black;
+                        color: color.$white;
+                    }
+                }
+            }
+        }
+    }
+
+    .header-image {
+        height: 90vh;
+    }
+
+    /* Main Styles */
+
+    .main-sup {
+        @include flexAvanzado(flex, row); 
+        justify-content: space-around;
+        margin-bottom: 2rem;
+        align-items: center;
+    }
+
+    .main-image {
+        height: 56vh;
+    }
+
+    .main-description {
+        @include flexAvanzado(flex, row); 
+        align-items: center;
+        background-color: color.$grey;
+    }
+
+    .main-description {
+        img {
+            width: 50%;
+        }
+    }
+
+    .main-description {
+        h2 {
+            width: 50%;
+            font-size: 2.5rem;
+        }
+    }
+
+    /* Footer Styles */
+
+    .footer-description {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: color.$white;
+    }
+
+    .footer-pages {
+        padding-left: 4rem;
+        font-size: 2.8rem;
+    }
+
+    .footer-pages {
+        ul {
+            li {
+                &:hover,
+                a:hover {
+                    background-color: color.$white;
+                    color: color.$black;
+                    }
+            }
+        }
+    }
+
+    .footer-social {
+        font-size: 2rem;
+        padding: 1rem 5rem;
+        margin-right: 1.8rem;
+    }
+
+    .footer-social-media {
+        background-color: color.$white;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .footer-social-media {
+        a {
+            color: #000;
+        }
+    }
+
+    .footer-copyright {
+        text-align: end;
+    }
+}
+
+@media screen and (min-width: 1921px) {
+
+    /* Header Styles */
+
+    .container-header {
+        height: 22vh;
+        justify-content: space-around;
+    }
+
+    .container-header {
+        img {
+            height: 15vh;
+            margin-left: -8rem;
+        }
+    }
+
+    .container-header {
+        nav {
+            width: 49%;
+        }
+    }
+
+    .container-header {
+        nav {
+            ul {
+                li {
+                    a {
+                        font-size: 3.5rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .header-image {
+        height: 100vh;
+    }
+
+    /* Main Styles */
+
+    .main-image {
+        height: 100vh;
+    }
+
+    /* Footer Styles */
+
+    .footer-pages {
+        padding-left: 9rem;
+    }
+}

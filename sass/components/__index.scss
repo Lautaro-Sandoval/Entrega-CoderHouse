@@ -1,0 +1,139 @@
+/* Header Styles */
+
+.container-header {
+    @include flexAvanzado(flex, column); 
+    text-align: center;
+}
+
+.container-header {
+    nav {
+        ul {
+            li {
+                width: 100%;
+                font-size: 1.4rem;
+                padding: 1rem 0;
+            }
+        }
+    }
+}
+
+.container-header {
+    nav {
+        ul {
+            li {
+            &:hover,
+            a:hover {
+                background-color: color.$white;
+                color: color.$black;
+                transition: color 0.3s;
+                }
+            }
+        }
+    }
+}
+
+.header-image {
+    background-image: url(../img/yamaha60.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 32vh;
+    width: 100%;
+}
+
+.header-description {
+    text-align: center;
+}
+
+/* Main Styles */
+
+.container-main {
+    text-align: center;
+    font-weight: 800;
+    font-size: medium;
+    padding: 2rem;
+}
+
+.main-image {
+    background-image: url(../img/valentinohome.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 32vh;
+    width: 100%;
+}
+
+.main-description {
+    text-align: center;
+}
+
+.main-description {
+    img {
+        width: 100%;
+    }
+}
+
+.main-description {
+    h2 {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+/* Footer Styles */
+
+.footer-description {
+    background-color: color.$white;
+    @include flexAvanzado(flex, column); 
+}
+
+.footer-description {
+    a {
+        color: color.$black;
+    }
+}
+
+.footer-description {
+    p {
+        color: color.$white;
+    }
+}
+
+.footer-pages {
+    @include flexAvanzado(flex, column); 
+    text-align: center;
+}
+
+.footer-pages {
+    ul {
+        li {
+            font-size: 1.4rem;
+            padding: 1rem 0;
+        }
+    }
+}
+
+.footer-pages {
+    ul {
+        li {
+            &:hover,
+            a:hover {
+                background-color: color.$black;
+                color: color.$white;
+                transition: color 0.3s;
+            }
+        }
+    }
+}
+
+.footer-social {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 2rem 0;
+}
+
+.footer-social {
+    a {
+        color: color.$white;
+        margin-right: 1rem;
+    }
+}

@@ -1,0 +1,54 @@
+/* Main Styles */
+
+.pn-container {
+    background-image: url(../img/fondonaked.jpg);
+}
+
+.ps-container {
+    background-image: url(../img/fondoracing.jpg);
+}
+
+.pt-container {
+    background-image: url(../img/fondotouring.jpg);
+}
+
+.pn-container,
+.ps-container,
+.pt-container {
+    background-position: center;
+    background-size: cover;
+    background-color: color.$opacity;
+    background-blend-mode: overlay;
+}
+
+.container-models {
+    @include flexAvanzado(flex, column); 
+    text-align: center;
+    justify-content: center;
+}
+
+.container-models {
+    h2 {
+        margin-top: 8rem;
+    }
+}
+
+.container-models {
+    h2,
+    p {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+}
+
+.container-models__basic {
+    @include flexAvanzado(flex, column); 
+}
+
+.container-models__basic__models {
+    img {
+        width: 95%;
+        height: 18rem;
+        border-radius: 1rem;
+    }   
+}

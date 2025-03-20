@@ -1,0 +1,38 @@
+
+/* Querys Small Tablets */
+
+@media screen and (min-width: 711px) {
+
+    /* Main Styles */
+
+    .container-about {
+        width: 95%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+
+/* Querys Desktop */
+
+@media screen and (min-width: 1200px) {
+
+    /* Header Styles */
+
+    .header-image__about {
+        height: 65vh;
+    }
+
+    /* Main Styles */
+
+    .about__text {
+        text-align: start;
+    }
+
+    .container-about {
+        img {
+            height: 65vh;
+        }
+    }
+
+}

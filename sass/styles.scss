@@ -1,0 +1,17 @@
+@use "./utilities/_variables" as color;
+
+@import "./components/_generales";
+
+@import "./utilities/_mixins";
+@import "./utilities/_animations";
+
+@import "./components/_index";
+@import "./components/_motos";
+@import "./components/_nst";
+@import "./components/_about";
+
+
+@import "./mq/_mqIndex";
+@import "./mq/_mqMotos";
+@import "./mq/_mqAbout";
+@import "./mq/_mqNST";

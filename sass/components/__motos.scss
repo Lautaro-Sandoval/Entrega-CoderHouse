@@ -1,0 +1,39 @@
+.container-motos {
+    @include flexAvanzado(flex, column); 
+    align-items: center;
+}
+
+.container-naked {
+    background-image: url(../img/fondonaked.jpg);
+}
+
+.container-sport {
+    background-image: url(../img/fondoracing.jpg);
+}
+
+.container-touring {
+    background-image: url(../img/fondotouring.jpg);
+}
+
+.container-naked,
+.container-sport,
+.container-touring {
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    height: 38vh;
+    width: 100%;
+    margin-bottom: 2rem;
+    background-color: color.$opacity;
+    background-blend-mode: overlay;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-naked,
+.container-sport,
+.container-touring {
+    a {
+        font-size: 3rem;
+    }
+}

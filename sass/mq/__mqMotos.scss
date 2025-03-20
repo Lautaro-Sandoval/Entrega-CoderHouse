@@ -1,0 +1,31 @@
+/* Querys Small Tablets */
+
+@media screen and (min-width: 711px) {
+
+    /* Main Styles */
+
+    .container-naked,
+    .container-sport,
+    .container-touring {
+        height: 50vh;
+    }
+}
+
+/* Querys Desktop */
+
+@media screen and (min-width: 1200px) {
+
+    /* Main Styles */
+
+    .container-motos {
+        flex-direction: row;
+        margin-bottom: 4rem;
+    }
+
+    .container-naked,
+    .container-sport,
+    .container-touring {
+        margin: 0 0.7rem;
+        border-radius: 1rem;
+    }
+}
